@@ -1,0 +1,16 @@
+import React from 'react';
+import Footer from '../pages/Shared/Footer/Footer';
+import Nav from '../pages/Shared/NavBar/Nav';
+import { Outlet } from 'react-router-dom'
+
+const Main = () => {
+    return (
+        <div>
+           <Nav></Nav>
+           <Outlet></Outlet>
+           <Footer></Footer> 
+        </div>
+    );
+};
+
+export default Main;
