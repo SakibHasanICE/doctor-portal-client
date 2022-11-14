@@ -1,5 +1,6 @@
 import React from "react";
 import img from "../../../assets/images/treatment.png";
+import Components from "../../../Components/Components";
 const Dental = () => {
   return (
     <div className="hero  mt-24">
@@ -15,7 +16,7 @@ const Dental = () => {
             here', making it look like readable English. Many desktop publishing
             packages and web page
           </p>
-          <button className="btn btn-primary">Get Started</button>
+          <Components>Get Started</Components>
         </div>
       </div>
     </div>

@@ -1,11 +1,13 @@
 import React from 'react';
 import img from '../../../assets/images/doctor.png'
 import bgImg from '../../../assets/images/appointment.png'
+import Components from '../../../Components/Components';
 const AppointmentHomeCard = () => {
     return (
         <div className="hero  mt-32"
         style={{
             background:`url(${bgImg})`
+            
         }}
         >
         <div className="hero-content flex-col lg:flex-row">
@@ -20,7 +22,7 @@ const AppointmentHomeCard = () => {
               here', making it look like readable English. Many desktop publishing
               packages and web page
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            <Components>Getting started</Components>
           </div>
         </div>
       </div>
